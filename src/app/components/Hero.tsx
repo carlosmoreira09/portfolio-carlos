@@ -37,7 +37,7 @@ export default function Hero() {
             <div className="relative h-64 w-64 md:h-80 md:w-80 mx-auto">
               <div className="absolute inset-0 rounded-full bg-blue-100 dark:bg-blue-900/20"></div>
               <Image
-                src="/PlaygroundImage.jpg"
+                src="/images/projects/PlaygroundImage.jpg"
                 alt="Carlos Moreira"
                 fill
                 className="rounded-full object-cover p-2"

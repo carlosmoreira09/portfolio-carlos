@@ -24,7 +24,7 @@ export default function About() {
           <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
             <div className="relative h-64 w-full md:h-96 rounded-lg overflow-hidden">
               <Image
-                src="/PlaygroundImage.jpg"
+                src="/images/projects/PlaygroundImage.jpg"
                 alt="About Carlos Moreira"
                 fill
                 className="object-cover"
