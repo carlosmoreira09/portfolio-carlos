@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 py-8">
+    <footer className="w-full border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 py-4 mt-auto">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              © {new Date().getFullYear()} Carlos Moreira. All rights reserved.
+              {new Date().getFullYear()} Carlos Moreira. All rights reserved.
             </p>
           </div>
           <div className="flex space-x-6">

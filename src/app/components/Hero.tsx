@@ -7,11 +7,16 @@ export default function Hero() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:pr-12">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Hi, I'm <span className="text-blue-600">Carlos Moreira</span>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+              Hi, I&#39;m <span className="text-blue-600">Carlos Moreira</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8">
-              Full Stack Developer specializing in modern web applications
+            <p className="text-sm md:text-xl text-gray-600 dark:text-gray-400 mb-8">
+              For the past 5 years, I have been developed full stack web applications to several clients and
+              specializing in create robust solutions using React, NestJS, TypeScript, NodeJs and PostgreSQL.
+            </p>
+            <p className="text-sm md:text-xl text-gray-600 dark:text-gray-400 mb-8">
+              I developed strong skills in problem-solving, project management, teamwork, and analytical thinking.
+              My background provided me a solid foundation to work in dynamic environments and solve complex challenges.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -32,7 +37,7 @@ export default function Hero() {
             <div className="relative h-64 w-64 md:h-80 md:w-80 mx-auto">
               <div className="absolute inset-0 rounded-full bg-blue-100 dark:bg-blue-900/20"></div>
               <Image
-                src="/images/profile.jpg"
+                src="/PlaygroundImage.jpg"
                 alt="Carlos Moreira"
                 fill
                 className="rounded-full object-cover p-2"

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Carlos Moreira | Full Stack Developer",
   description: "Portfolio of Carlos Moreira, a Full Stack Developer specializing in modern web applications",
   icons: {
-    icon: "/favicon.ico",
+    icon:"favicon.ico"
   },
 };
 

@@ -4,16 +4,17 @@ export default function About() {
   const skills = [
     'JavaScript',
     'TypeScript',
-    'React',
-    'Next.js',
-    'Node.js',
+    'NestJS',
+    'ReactJs',
+    'NextJs',
+    'NodeJs',
     'Express',
-    'MongoDB',
+    'Virtual Machine',
     'PostgreSQL',
+    'MySQL',
     'TailwindCSS',
     'Git',
-    'Docker',
-    'AWS',
+    'Amazon RDS',
   ];
 
   return (
@@ -23,7 +24,7 @@ export default function About() {
           <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0">
             <div className="relative h-64 w-full md:h-96 rounded-lg overflow-hidden">
               <Image
-                src="/images/about.jpg"
+                src="/PlaygroundImage.jpg"
                 alt="About Carlos Moreira"
                 fill
                 className="object-cover"
@@ -33,8 +34,8 @@ export default function About() {
           <div className="md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-              I'm a passionate Full Stack Developer with expertise in building modern web applications.
-              With several years of experience in the industry, I've worked on a variety of projects
+              I&#39;m a passionate Full Stack Developer with expertise in building modern web applications.
+              With several years of experience in the industry, I&#39;ve worked on a variety of projects
               ranging from small business websites to complex enterprise applications.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
