@@ -139,7 +139,7 @@ export default function Contact() {
             </div>
             {submitStatus === 'success' && (
               <div className="p-4 bg-green-100 text-green-800 rounded-md">
-                Thank you for your message! I'll get back to you soon.
+                Thank you for your message! I&#39;ll get back to you soon.
               </div>
             )}
             {submitStatus === 'error' && (
