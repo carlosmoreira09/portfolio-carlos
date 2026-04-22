@@ -1,0 +1,33 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BodyFitness em construção">
+  <defs>
+    <linearGradient id="bg" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#111a28" />
+      <stop offset="50%" stop-color="#0b1119" />
+      <stop offset="100%" stop-color="#06080b" />
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#9ad92d" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#9ad92d" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <rect width="1200" height="675" fill="url(#glow)" />
+  <g transform="translate(200 170)">
+    <path
+      fill="#9ad92d"
+      d="M70 30c0-16.6 13.4-30 30-30h170c120 0 196 64 196 168 0 64.8-30.7 112.6-82 137 46 20.8 74 60.4 74 116 0 92.4-71.4 154-180 154H140c-16.6 0-30-13.4-30-30z"
+    />
+    <path
+      fill="#0f151d"
+      d="M190 110v120h140c45 0 80-28.2 80-64s-35-56-80-56zm0 188v124h120c45 0 80-30.2 80-68s-35-68-80-68z"
+    />
+  </g>
+  <g transform="translate(460 330)">
+    <text x="0" y="0" fill="#e8eef7" font-family="'Poppins', 'Inter', 'Segoe UI', sans-serif" font-size="88" font-weight="700" letter-spacing="-0.02em">
+      BodyFitness
+    </text>
+    <text x="4" y="62" fill="#9ad92d" font-family="'Poppins', 'Inter', 'Segoe UI', sans-serif" font-size="24" font-weight="600" letter-spacing="0.18em">
+      EM CONSTRUÇÃO
+    </text>
+  </g>
+</svg>
